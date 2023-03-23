@@ -7,7 +7,7 @@ recognition.lang = 'pt-Br'
 recognition.start()
 recognition.continuous = false;
 recognition.addEventListener('result', onSpeak)
-recognition.start()
+
 
 function onSpeak(e) {
     chute = e.results[0][0].transcript
